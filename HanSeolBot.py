@@ -240,5 +240,5 @@ async def 도움말(ctx):
 
 # 토큰
 
-access_token = os.environ[BOT_TOKEN]
+access_token = os.environ['BOT_TOKEN']
 bot.run('access_token')
