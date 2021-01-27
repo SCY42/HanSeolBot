@@ -1,6 +1,7 @@
 #임포트
 
 import discord
+import os
 from discord.ext import commands
 import random
 from discord.ext.commands import CommandNotFound
@@ -239,4 +240,5 @@ async def 도움말(ctx):
 
 # 토큰
 
-bot.run('ODAzODQ1ODU4MDgwMTk0NTcz.YBDtyw.w9mSuOz9ewIoAkwfkDADSvy77TI')
+access_token = os.environ[BOT_TOKEN]
+bot.run('access_token')
